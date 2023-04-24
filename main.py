@@ -3,6 +3,7 @@ def signUp():
     print("Create a New Account")
     user = input("Enter a Username: ")
     # TODO Filter Username
+    # Testing Case
     passwd = input("Enter a Password: ")
     confirm_passwd = input("Confirm your Password: ")
     if passwd == confirm_passwd:
