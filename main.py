@@ -1,4 +1,19 @@
+from termcolor import cprint
 import hashlib as hl
+
+
+def welcome():
+    cprint("Welcome", 'red')
+
+
+# New Acc Text
+
+# Get User
+# Check User
+#   Request New If In Use
+# Hold User
+
+
 def signUp():
     print("Create a New Account")
     user = input("Enter a Username: ")
@@ -17,5 +32,6 @@ def signUp():
     else:
         print("Passwords do not match try again")
         signUp()
+
 
 signUp()
